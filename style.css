@@ -96,6 +96,11 @@ nav a{
     margin-bottom: 20px;
 }
 
+#wrapper_words button:hover{
+    background-color: black;
+    color: #DCE5E2;
+}
+
 #phones_left, #phones_right{
     width: 50%;
     height: 100%;
@@ -136,7 +141,10 @@ h2{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     border-radius: 30px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
 }
+
 .devices{
     width: 100%;
     height: 1018px;
@@ -147,6 +155,7 @@ h2{
     width: 100%;
     height: 114px;
     text-align: center;
+    margin-bottom: 40px;
     line-height: 1.2;
     padding-top: 40px;
 }
@@ -163,5 +172,138 @@ h2{
     margin: auto;
     font-size: 14px;
 }
+
+.device_container{
+    width: 100%;
+    height: 792px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical{
+    width: 296px;
+    height: 95%;
+    box-shadow: 0px 0px 14px 5px lightgrey;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical:hover{
+    height: 100%;
+    width: 312px;
+}
+
+.horizontal_container{
+    height: 100%;
+    width: 639px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#first_horizontal{
+    height: 448px;
+    width: 95%;
+    box-shadow: 0px 0px 14px 5px lightgrey;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+#first_horizontal:hover{
+    height: 472px;
+    width: 100%;
+}
+
+#second_horizontal{
+    width: 95%;
+    height: 256px;
+    box-shadow: 0px 0px 14px 5px lightgrey;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    display: flex;
+    justify-content: space-around;
+}
+
+#second_horizontal:hover{
+    width: 100%;
+    height: 270px;
+}
+
+
+#macbook_photo{
+    background-image: url("source/macbook.png");
+    background-position: 0 0;
+    background-size: cover;
+    margin-left: 40px;
+    width: 80%;
+    height: 80%;
+}
+
+#macbook_description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 40px;
+    text-align: right;
+}
+
+.device_container p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+h4{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+#watch_photo{
+    background-image: url("source/watch.png");
+    background-position: 0 0;
+    background-size: cover;
+    width: 60%;
+}
+
+#watch_description{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+#iphone_photo{
+    background-image: url("source/iphones.png");
+    background-position: 20px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+
+#iphone_description, #ipad_description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+#ipad_photo{
+    background-image: url("source/ipad.png");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+
 
 
