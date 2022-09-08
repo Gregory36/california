@@ -107,7 +107,7 @@ nav a{
 }
 
 #bucket_image:hover, #search_image:hover{
-    cursor: pointer;
+    height: 35px;
 }
 
 /* MAIN */
