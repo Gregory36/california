@@ -1,5 +1,4 @@
 const buttonBackToTop = document.querySelector(".backToTop")
-var userIsAuthorized = false
 
 buttonBackToTop.addEventListener("click", ()=>{
     window.scrollTo(0,0);
@@ -15,10 +14,5 @@ window.addEventListener("scroll", ()=>{
 })
 
 window.addEventListener("load", ()=>{
-    if(userIsAuthorized){
-        
-    }else{
-
-    }
-
+  
 })

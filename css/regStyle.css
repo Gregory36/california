@@ -1,0 +1,127 @@
+/* Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0
+    /* Для элементов которые имеют дефолтные отступы */
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    /* Стандартные значения html и body */
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+/*-------------------------*/
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+}
+.container{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+nav{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#back a{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+}
+
+/* -----MAIN------ */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c6c6c6;
+    width: 50%;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+
+
+#text_auth {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.auth_section div{
+    margin: 10px;
+    height: 50px;
+    width: 450px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    padding: 1px 20px;
+}
+
+.btn_sign_in {
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+
