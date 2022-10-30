@@ -1,12 +1,8 @@
-const buttonBackToTop = document.querySelector(".backToTop");
+
 const buttonSignInOnModal = document.getElementById('buttonSignInOnModal');
 const buttonSignIn = document.getElementById('signIn_image');
 const buttonLogOut = document.getElementById('logOut_image');
 const modal = document.getElementById('exampleModal');
-
-buttonBackToTop.addEventListener("click", ()=>{
-    window.scrollTo(0,0);
-})
 
 buttonSignIn.addEventListener("click", ()=>{
     if(localStorage.getItem("login") != null){
@@ -35,15 +31,6 @@ buttonLogOut.addEventListener("click", ()=>{
     login_name.hidden = true;
     buttonLogOut.hidden = true;
     buttonSignIn. hidden = false;
-})
-
-window.addEventListener("scroll", ()=>{
-    if (window.scrollY > 100) {
-        buttonBackToTop.style.right = "2%"
-    }
-    else{
-        buttonBackToTop.style.right = "-5%"
-    }
 })
 
 window.addEventListener("load", ()=>{
