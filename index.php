@@ -214,8 +214,8 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                            <button type="submit" class="btn btn-primary" name="enter" id="enter">Вход</button>
-                            <button type="submit" class="btn btn-outline-info" name="registration" id="registration">Регистрация</button>
+                            <button type="submit" class="buttonLogInpr" name="enter" id="enter">Вход</button>
+                            <button type="submit" class="buttonRegpr" name="registration" id="registration">Регистрация</button>
                         </div>
                     </form>
                 </div>
@@ -224,8 +224,6 @@
     </div>
       <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="auth.js"></script>
-    <script src="userBase.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
